@@ -1,0 +1,43 @@
+@import url('_reset.css'); 
+@import url('_var.css');
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #4A4F56;
+
+}
+
+.container {
+    max-width: 793px;
+    margin: 0 auto;
+    background-color: #3B3F45;
+
+
+}
+
+/* .shopping-list {
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: column;
+    align-items: flex-start;
+} */ */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 534px;
+  margin: 0 auto;
+}
+
+input{
+    margin: 12px 0 14px 12px;
+    width: 19px;
+    height: 19px;
+}
+label {
+    float: right;
+}
