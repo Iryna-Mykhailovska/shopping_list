@@ -1,4 +1,5 @@
 :root {
+    --font-family: "Roboto", sans-serif;
     --color-title: #FF8984;
     --color-bg-header: #4A4F56;
     --color-bg-container: #3B3F45;
@@ -7,5 +8,4 @@
     --color-text-checked: #9B96AC;
     --color-bg-field-hover: #625E77;
     --color-border: #fff;
-    --font-family: "Roboto", sans-serif;
 }

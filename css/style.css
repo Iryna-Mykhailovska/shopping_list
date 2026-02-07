@@ -18,9 +18,7 @@
 h1 {
     font-weight: 700;
     font-size: 24px;
-    line-height: 100%;
     color: var(--color-title);
-    vertical-align: middle;
     margin-bottom: 4px;
 }
 
@@ -28,8 +26,6 @@ h2 {
     color: var(--color-title);
     font-weight: 400;
     font-size: 16px;
-    vertical-align: middle;
-
 }
 
 .container {
@@ -46,27 +42,23 @@ h2 {
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 4px;
     padding: 0;
-    margin: 0;
     border: none;
     width: 534px;
     margin: 0 auto;
     background-color: var(--color-bg-field);
     margin-bottom: 45px;
-
 }
 
 .form-field {
-    border-bottom: 1px solid #88839E;
-    background-color: #88839E;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .form-field:nth-child(even) {
     background-color: var(--color-bg-field-checked);
-    box-shadow: 0px 4px 4px 0px #00000040;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.251);
 
 }
 
@@ -95,10 +87,29 @@ label>span {
     color: var(--color-border);
 }
 
+.form-field::after,
+.form-field::before {
+    content: '';
+    height: 3px;
+    width: 100%;
+    opacity: 0;
+    background-color: var(--color-border);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.form-field::before{
+    top: auto;
+    bottom: 0;
+}
+.form-field:hover::after,
+.form-field:hover::before {
+    opacity: 1;
+}
 .form-field:hover {
     background-color: var(--color-bg-field-hover);
-    border-bottom: 3px solid var(--color-border);
-    border-top: 3px solid var(--color-border);
+    /* border-bottom: 3px solid var(--color-border);
+    border-top: 3px solid var(--color-border); */
 
 }
 
