@@ -4,18 +4,15 @@
 * {
     font-family: var(--font-family);
     box-sizing: border-box;
-
 }
 
 .header {
     margin: 0 auto;
     max-width: 793px;
-
     text-align: center;
     background-color: var(--color-bg-header);
     padding-top: 19px;
     padding-bottom: 12px;
-
 }
 
 h1 {
@@ -39,15 +36,11 @@ h2 {
     max-width: 793px;
     margin: 0 auto;
     background-color: var(--color-bg-container);
-
-
 }
 
 .shopping-list {
     padding-top: 20px;
     padding-bottom: 45px;
-    margin: 0 auto;
-
 }
 
 .form-group {
@@ -69,7 +62,10 @@ h2 {
     background-color: #88839E;
     display: flex;
     align-items: center;
-
+}
+.form-field:nth-child(even) {
+    background-color: var(--color-bg-field-checked);
+    box-shadow: 0px 3px 0px 0px var(--color-border);
 }
 
 input {
@@ -78,11 +74,6 @@ input {
     height: 19px;
 }
 
-.form-field:nth-child(even) {
-    background-color: #7A7593;
-    
-
-}
 
 input[type="checkbox"] {
     border: none;
@@ -115,8 +106,9 @@ input:checked+label>span {
 text-decoration: line-through;
 }
 
-button {
+.bon-appetit {
     color: var(--color-title);
+    display: block;
     font-weight: 400;
     font-size: 18px;
     width: 534px;
