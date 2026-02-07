@@ -63,9 +63,11 @@ h2 {
     display: flex;
     align-items: center;
 }
+
 .form-field:nth-child(even) {
     background-color: var(--color-bg-field-checked);
-    box-shadow: 0px 3px 0px 0px var(--color-border);
+    box-shadow: 0px 4px 4px 0px #00000040;
+
 }
 
 input {
@@ -103,7 +105,7 @@ input:checked+label,
 input:checked+label>span {
     background-color: var(--color-bg-field-checked);
     color: var(--color-text-checked);
-text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 .bon-appetit {
@@ -113,7 +115,7 @@ text-decoration: line-through;
     font-size: 18px;
     width: 534px;
     height: 45px;
-    margin:0 auto;
+    margin: 0 auto;
     border: none;
     padding: 12px 0;
     text-align: center;
