@@ -1,14 +1,13 @@
-:root
-{
-    --color-title:#FF8984;
-    --color-bg-header:#4A4F56;
-    --color-bg-container:#3B3F45;
+:root {
+    --color-title: #FF8984;
+    --color-bg-header: #4A4F56;
+    --color-bg-container: #3B3F45;
     --color-bg-field: #88839E;
     --color-bg-field-checked: #7A7593;
---color-text-checked:#9B96AC;
+    --color-text-checked: #9B96AC;
     --color-bg-field-hover: #625E77;
-    --color-border:#fff;
-    --font-family:"Roboto", sans-serif;
+    --color-border: #fff;
+    --font-family: "Roboto", sans-serif;
 
 
 }
