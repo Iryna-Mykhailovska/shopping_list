@@ -108,18 +108,24 @@ label>span {
 }
 .form-field:hover {
     background-color: var(--color-bg-field-hover);
-    /* border-bottom: 3px solid var(--color-border);
-    border-top: 3px solid var(--color-border); */
-
 }
 
 input:checked+label,
 input:checked+label>span {
     background-color: var(--color-bg-field-checked);
     color: var(--color-text-checked);
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
 }
-
+input:checked+label::after{
+    content: '';
+    position: absolute;
+    top:50%;
+    left: 47px;
+    width: 50%;
+    height: 1px;
+    background-color: var(--color-text-checked);
+    opacity: 1;
+}
 .bon-appetit {
     color: var(--color-title);
     display: block;
