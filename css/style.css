@@ -111,6 +111,7 @@ input:checked+label,
 input:checked+label>span {
     background-color: var(--color-bg-field-checked);
     color: var(--color-text-checked);
+text-decoration: line-through;
 }
 
 button {
