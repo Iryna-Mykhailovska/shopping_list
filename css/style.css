@@ -3,12 +3,14 @@
 
 * {
     font-family: var(--font-family);
-
+box-sizing: border-box;
 
 }
 
 .header {
     margin: 0 auto;
+    max-width: 793px;
+
     text-align: center;
     background-color: var(--color-bg-header);
     padding-top: 19px;
@@ -104,8 +106,9 @@ label>span {
     border-top: 3px solid var(--color-border);
 }
 
-input:checked+label {
+input:checked+label,input:checked+label>span {
     background-color: var(--color-bg-field-checked);
+    color: var(--color-text-checked);
 }
 
 button {
@@ -118,5 +121,5 @@ button {
     border: none;
     padding: 12px 0;
     text-align: center;
-background-color: var(--color-bg-header);
+    background-color: var(--color-bg-header);
 }
