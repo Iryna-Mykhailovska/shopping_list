@@ -78,10 +78,10 @@ input {
     height: 19px;
 }
 
-/* .form-field:nth-child(even) {
+.form-field:nth-child(even) {
     background-color: #7A7593;
 
-} */
+}
 
 input[type="checkbox"] {
     border: none;
