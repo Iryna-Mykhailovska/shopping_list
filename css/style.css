@@ -1,5 +1,5 @@
-@import url('./_reset.css');
-@import url('./_var.css');
+@import url('./reset.css');
+@import url('./var.css');
 
 * {
     font-family: var(--font-family);
