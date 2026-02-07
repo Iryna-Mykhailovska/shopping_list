@@ -99,6 +99,7 @@ label>span {
     background-color: var(--color-bg-field-hover);
     border-bottom: 3px solid var(--color-border);
     border-top: 3px solid var(--color-border);
+
 }
 
 input:checked+label,
