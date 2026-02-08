@@ -109,7 +109,9 @@ label>span {
 .form-field:hover {
     background-color: var(--color-bg-field-hover);
 }
-
+input[type="checkbox"] {
+  accent-color: #ffb700;
+}
 input:checked+label,
 input:checked+label>span {
     background-color: var(--color-bg-field-checked);
